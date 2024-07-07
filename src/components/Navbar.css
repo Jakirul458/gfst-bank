@@ -1,0 +1,51 @@
+Navbar.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 63, 143);
+    height: 10vh;
+    padding: 10px 20px;
+  }
+  
+  .navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    color: rgb(20, 38, 135);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: darkred;
+    cursor: pointer;
+  }
+  
+  .balance-info {
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  /* .content {
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 90vh;
+    overflow-y: auto;
+  }
+   */
