@@ -12,7 +12,7 @@
 
 
 
-
+                                             /*Edit 2*/
 
 
 
@@ -132,6 +132,8 @@ export default CreateInvestmentAccount;
 
 */
 
+                                       /*Edit 2*/
+
 
 import React, { useState } from 'react';
 import './CreateLoanAccountForm.css';
@@ -156,7 +158,7 @@ const CreateInvestmentAccountForm = () => {
     <form onSubmit={handleSubmit} className="account-form">
       {error && <p className="error">{error}</p>}
       <div className="form-group">
-        <label>Date:</label>
+        <label>Date</label>
         <input
           type="date"
           value={date}
@@ -164,7 +166,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Account No:</label>
+        <label>Account No</label>
         <input
           type="text"
           value={account}
@@ -172,7 +174,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Name:</label>
+        <label>Name</label>
         <input
           type="text"
           value={name}
@@ -180,7 +182,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Email:</label>
+        <label>Email</label>
         <input
           type="email"
           value={email}
@@ -188,7 +190,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Mobile No:</label>
+        <label>Mobile No</label>
         <input
           type="text"
           value={mobile}
@@ -196,7 +198,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Aadhar No:</label>
+        <label>Aadhar No</label>
         <input
           type="text"
           value={aadhar}
@@ -204,7 +206,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Address:</label>
+        <label>Address</label>
         <input
           type="text"
           value={address}
@@ -212,7 +214,7 @@ const CreateInvestmentAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Opening Balance:</label>
+        <label>Investment Balance</label>
         <input
           type="text"
           value={balance}
@@ -225,3 +227,9 @@ const CreateInvestmentAccountForm = () => {
 };
 
 export default CreateInvestmentAccountForm;
+
+
+
+
+
+

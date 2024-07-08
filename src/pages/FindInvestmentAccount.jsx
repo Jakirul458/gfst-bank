@@ -1,25 +1,21 @@
-
 /*
 import React from 'react'
 
-function FindSavaingAccount() {
+function FindInvestmentAccount() {
   return (
-    <div>FindSavaingAccount</div>
+    <div>FindInvestmentAccount</div>
   )
 }
 
-export default FindSavaingAccount
+export default FindInvestmentAccount
 
 */
 
 
-
-/* edit 1 */
-
 import React, { useState } from 'react';
-import './FindSavingAccount.css';
+import './FindInvestmentAccount.css';
 
-const FindSavingAccount = () => {
+const FindInvestmentAccount = () => {
   const [accountNo, setAccountNo] = useState('');
   const [accountInfo, setAccountInfo] = useState(null);
   const [error, setError] = useState('');
@@ -80,7 +76,4 @@ const FindSavingAccount = () => {
   );
 };
 
-export default FindSavingAccount;
-
-
-
+export default FindInvestmentAccount;

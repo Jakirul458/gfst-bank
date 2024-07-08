@@ -199,28 +199,26 @@
     
 //   )
 // }
-
-// export default CreateSavingAccount
-
-
-// import React from 'react'
-
-// function CreateSavingAccount() {
-//   return (
-//     <>
-//     <div>Create Saving Account</div>
-
-    
-    
-//     </>
-//   )
-// }
-
-// export default CreateSavingAccount
+/*
+export default CreateSavingAccount
 
 
+import React from 'react'
+
+function CreateSavingAccount() {
+  return (
+    <>
+    <div>Create Saving Account</div>
+    </>
+  )
+}
+
+export default CreateSavingAccount
+
+*/
 
 
+                                          /*Edit 2*/
 
 
 
@@ -270,6 +268,9 @@
 
 // export default CreateSavingAccountForm;
 
+
+
+                                    /*Edit 2*/
 
 
 
@@ -389,6 +390,11 @@ export default CreateSavingAccountForm;
 
 */
 
+
+                                        /*Edit 4*/
+
+
+
 import React, { useState } from 'react';
 import './CreateSavingAccountForm.css';
 
@@ -412,7 +418,7 @@ const CreateSavingAccountForm = () => {
     <form onSubmit={handleSubmit} className="account-form">
       {error && <p className="error">{error}</p>}
       <div className="form-group">
-        <label>Date:</label>
+        <label>Date</label>
         <input
           type="date"
           value={date}
@@ -420,7 +426,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Account No:</label>
+        <label>Account No</label>
         <input
           type="text"
           value={account}
@@ -428,7 +434,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Name:</label>
+        <label>Name</label>
         <input
           type="text"
           value={name}
@@ -436,7 +442,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Email:</label>
+        <label>Email</label>
         <input
           type="email"
           value={email}
@@ -444,7 +450,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Mobile No:</label>
+        <label>Mobile No</label>
         <input
           type="text"
           value={mobile}
@@ -452,7 +458,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Aadhar No:</label>
+        <label>Aadhar No</label>
         <input
           type="text"
           value={aadhar}
@@ -460,7 +466,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Address:</label>
+        <label>Address</label>
         <input
           type="text"
           value={address}
@@ -468,7 +474,7 @@ const CreateSavingAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Opening Balance:</label>
+        <label>Opening Balance</label>
         <input
           type="text"
           value={balance}

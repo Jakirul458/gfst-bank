@@ -58,27 +58,25 @@ import './Navbar.css'; // Import the CSS file
 function Navbar() {
   return (
     <>
+      <div ClassName="h1">
+        <h1>Golden Future Supportive Trust</h1>
+      </div>
+
       <div className="navbar">
         <div className="navbar-section">
           <NavLink to='/home' className="nav-link">Home</NavLink>
           <NavLink to='/about' className="nav-link">About</NavLink>
-          <div className="balance-info">Total main balance</div>
-          <div className="balance-info">Available main balance</div>
-          <div className="balance-info">Loan approval balance</div>
-          <div className="balance-info">Remaining loan balance</div>
-          <div className="balance-info">Investment balance</div>
-          <div className="balance-info">Profit</div>
           <NavLink to='/logout' className="nav-link">Log out</NavLink>
         </div>
       </div>
 
-      <div className="content">
-        <Routes>
+
+      {/* <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/logout" element={<Logout />} />
-        </Routes>
-      </div>
+        </Routes> */}
+
     </>
   );
 }

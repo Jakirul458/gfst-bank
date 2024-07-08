@@ -10,16 +10,17 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: rgb(175, 63, 143);
-    height: 10vh;
-    padding: 10px 20px;
+    /* align-items: center; */
+    background-color: rgb(242, 122, 208);
+    height: 10%;
+    padding: 2% 800px;
   }
   
   .navbar-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: right;
     width: 100%;
   }
   
@@ -49,3 +50,6 @@ body {
     overflow-y: auto;
   }
    */
+   .h1{
+  background-color: aquamarine;
+   }

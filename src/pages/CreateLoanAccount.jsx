@@ -160,7 +160,7 @@ const CreateLoanAccountForm = () => {
     <form onSubmit={handleSubmit} className="account-form">
       {error && <p className="error">{error}</p>}
       <div className="form-group">
-        <label>Date:</label>
+        <label>Date</label>
         <input
           type="date"
           value={date}
@@ -168,7 +168,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Account No:</label>
+        <label>Account No</label>
         <input
           type="text"
           value={account}
@@ -176,7 +176,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Name:</label>
+        <label>Name</label>
         <input
           type="text"
           value={name}
@@ -184,7 +184,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Email:</label>
+        <label>Email</label>
         <input
           type="email"
           value={email}
@@ -192,7 +192,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Mobile No:</label>
+        <label>Mobile No</label>
         <input
           type="text"
           value={mobile}
@@ -200,7 +200,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Aadhar No:</label>
+        <label>Aadhar No</label>
         <input
           type="text"
           value={aadhar}
@@ -208,7 +208,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Address:</label>
+        <label>Address</label>
         <input
           type="text"
           value={address}
@@ -216,7 +216,7 @@ const CreateLoanAccountForm = () => {
         />
       </div>
       <div className="form-group">
-        <label>Opening Balance:</label>
+        <label>Loan amount</label>
         <input
           type="text"
           value={balance}

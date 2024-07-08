@@ -32,17 +32,10 @@ import './App.css';
 
 function App() {
   return (
-    // <Router>
-      <div className="app-container">
-        <marquee className="marquee">
-          <h1 className="title">Golden Future Supportive Trust</h1>
-        </marquee>
-        <div className="main-content">
-          <Navbar />
-          <SideBar />
-        </div>
-      </div>
-    // </Router>
+    <div className="main-content">
+      <Navbar />
+      <SideBar />
+    </div>
   );
 }
 
