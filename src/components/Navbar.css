@@ -5,13 +5,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aqua;
   }
   
   .navbar {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    background-color: rgb(242, 122, 208);
+     align-items: center; 
+    background-color: teal;
     height: 10%;
     padding: 2% 800px;
   }
@@ -26,10 +27,11 @@ body {
   
   .nav-link {
     margin-right: 20px;
-    color: rgb(20, 38, 135);
+    color: rgb(195, 199, 225);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    font-size: 20px;
   }
   
   .nav-link:hover {
@@ -43,13 +45,16 @@ body {
     font-size: 14px;
   }
   
-  /* .content {
+   .content {
     padding: 20px;
     background-color: #f0f0f0;
     height: 90vh;
     overflow-y: auto;
   }
-   */
+   
    .h1{
-  background-color: aquamarine;
-   }
+  background-color: rgb(19, 219, 153);
+   } 
+ 
+
+

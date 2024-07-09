@@ -48,38 +48,31 @@ export default Navbar
 
 
 
+
+
+
+
+
 import React from 'react';
-import { NavLink, Routes, Route } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Logout from '../pages/Logout';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'; // Import the CSS file
 
 function Navbar() {
   return (
     <>
-      <div ClassName="h1">
-        <h1>Golden Future Supportive Trust</h1>
-      </div>
+      <div className="navbar-container">
+        <div className="navbar-brand">
+          <h1>Golden Future Supportive Trust</h1>
+        </div>
 
-      <div className="navbar">
-        <div className="navbar-section">
+        <div className="navbar">
           <NavLink to='/home' className="nav-link">Home</NavLink>
           <NavLink to='/about' className="nav-link">About</NavLink>
           <NavLink to='/logout' className="nav-link">Log out</NavLink>
         </div>
       </div>
-
-
-      {/* <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/logout" element={<Logout />} />
-        </Routes> */}
-
     </>
   );
 }
 
 export default Navbar;
-

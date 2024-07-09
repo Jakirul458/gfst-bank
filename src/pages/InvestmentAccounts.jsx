@@ -1,9 +1,19 @@
 import React from 'react'
 
 function InvestmentAccounts() {
+    const users = [
+        // Example data
+        { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
+        { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
+        { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
+        { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
+        { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
+        
+        // Add more users here
+      ];
   return (
     <>
-     <div className="container mt-5">
+     
             <h1 className="mb-4">All Investment Accounts</h1>
             <table className="table table-bordered table-hover">
                 <thead className="thead-dark">
@@ -17,7 +27,7 @@ function InvestmentAccounts() {
                         <th>Address</th>
                     </tr>
                 </thead>
-                {/* <tbody>
+                <tbody>
                     {users.map((user, index) => (
                         <tr key={index}>
                             <td>{user.date}</td>
@@ -29,11 +39,16 @@ function InvestmentAccounts() {
                             <td>{user.address}</td>
                         </tr>
                     ))}
-                </tbody> */}
+                </tbody>
             </table>
-        </div>
+       
+        <button type="print" className="print-btn">Print</button>
     </>
   )
 }
 
 export default InvestmentAccounts
+
+
+
+

@@ -177,6 +177,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Name</label>
         <input
           type="text"
+          placeholder="Enter Consumer Name "
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -185,6 +186,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Email</label>
         <input
           type="email"
+          placeholder="Enter Consumer Email "
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -193,6 +195,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Mobile No</label>
         <input
           type="text"
+          placeholder="Enter Consumer Mobile No "
           value={mobile}
           onChange={(e) => setMobile(e.target.value)}
         />
@@ -201,6 +204,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Aadhar No</label>
         <input
           type="text"
+          placeholder="Enter Consumer Aadhar No "
           value={aadhar}
           onChange={(e) => setAadhar(e.target.value)}
         />
@@ -209,6 +213,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Address</label>
         <input
           type="text"
+          placeholder="Enter Consumer Address "
           value={address}
           onChange={(e) => setAddress(e.target.value)}
         />
@@ -217,6 +222,7 @@ const CreateInvestmentAccountForm = () => {
         <label>Investment Balance</label>
         <input
           type="text"
+          placeholder="Enter Consumer Investment Balance "
           value={balance}
           onChange={(e) => setBalance(e.target.value)}
         />

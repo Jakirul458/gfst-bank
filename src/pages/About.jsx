@@ -3,11 +3,16 @@ import React from 'react'
 function About() {
   return (
     <div>
-    <h2>Golden Future Supportive Trust Bank</h2>
-Golden Future Supportive Trust Bank is a pioneering financial institution committed to providing innovative and inclusive banking services to foster economic growth and financial stability for individuals and communities. Our mission is to build a secure and supportive banking environment that empowers our clients to achieve their financial aspirations and secure a prosperous future.
 
-<h2>Our Vision</h2>
-At Golden Future Supportive Trust Bank, our vision is to become a leading, trusted financial partner for our clients, offering unparalleled support and resources to help them navigate the complexities of financial management. We aim to create a future where everyone has access to the financial tools and knowledge needed to thrive.
+    
+    <h2>Golden Future Supportive Trust </h2>
+
+    <p>Golden Future Supportive Trust is a that is dedicated to providing financial services.</p>
+   
+    
+    <h2>Our Aim </h2>
+    <p>'Golden Future Supportive Trust' is a society which is an interest free society and we can take our money as a loan and pay it back every month without any interest.</p>
+    
     </div>
   )
 }

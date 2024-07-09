@@ -1,7 +1,7 @@
 /* Home.css */
 .container {
     padding: 20px;
-    background-color: #0863bd;
+    background-color: #bfc2c5;
     border-radius: 10px;
     max-width: 600px;
     margin: auto;
@@ -9,7 +9,7 @@
   }
   
   .header {
-    color: #4f14f1;
+    color: #5a30e1;
     text-align: center;
     margin-bottom: 20px;
   }
