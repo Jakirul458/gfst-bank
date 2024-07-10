@@ -10,13 +10,13 @@ function AllAccounts() {
         { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
         { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
         { date: '2023-07-09', accountNo: '123456789', name: 'John Doe', email: 'john@example.com', mobileNo: '1234567890', aadharNo: '1234-5678-9012', address: '123 Main St' },
-        
+
         // Add more users here
-      ];
-  return (
-<>
-    
-    
+    ];
+    return (
+        <>
+
+
             <h1 className="mb-4">All Savings Accounts</h1>
             <table className="table table-bordered table-hover">
                 <thead className="thead-dark">
@@ -44,12 +44,12 @@ function AllAccounts() {
                     ))}
                 </tbody>
             </table>
-        
-        <div className='print-btn-container'>
-        <button type="print" className="print-btn">Print</button>
-        </div>
-</>
-  )
+
+            <div className='print-btn-container'>
+                <button type="print" className="print-btn">Print</button>
+            </div>
+        </>
+    )
 }
 
 export default AllAccounts

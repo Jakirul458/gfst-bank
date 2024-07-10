@@ -13,13 +13,17 @@ h1 {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
-    font-size: 1rem; /* Increased font size for better readability */
+    font-size: 1rem;
+    /* Increased font size for better readability */
 }
 
-.table th, .table td {
-    padding: 6px; /* Increased padding for more space */
+.table th,
+.table td {
+    padding: 6px;
+    /* Increased padding for more space */
     text-align: center;
-    vertical-align: middle; /* Vertically center the text */
+    vertical-align: middle;
+    /* Vertically center the text */
 }
 
 .table thead {
@@ -47,35 +51,35 @@ h1 {
 .table tbody tr td:first-child {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-   
+
 }
 
 .table tbody tr td:last-child {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    
+
 }
 
 
 
 .print-btn {
-        display: block;
-        width: 10%;
-        padding: 10px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 20px;
-        font-size: 20px;
-        cursor: pointer;  
-         
-  }
-  .print-btn-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-top: 20px;
-  }
-  
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
 
-  
+}
+
+.print-btn-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    margin-top: 20px;
+}
