@@ -53,6 +53,36 @@ export default Navbar
 
 
 
+// import React from 'react';
+// import { NavLink } from 'react-router-dom';
+// import './Navbar.css'; // Import the CSS file
+
+// function Navbar() {
+//   return (
+//     <>
+//       <div className="navbar-container">
+//         <div className="navbar-brand">
+//           <h1>Golden Future Supportive Trust</h1>
+//         </div>
+
+//         <div className="navbar">
+//           <div ClassName ="heading">Golden Future Supportive Trust</div>
+//           <NavLink to='/home' className="nav-link">Home</NavLink>
+//           <NavLink to='/about' className="nav-link">About</NavLink>
+//           <NavLink to='/logout' className="nav-link">Log out</NavLink>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default Navbar;
+
+
+
+
+
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'; // Import the CSS file
@@ -62,13 +92,13 @@ function Navbar() {
     <>
       <div className="navbar-container">
         <div className="navbar-brand">
-          <h1>Golden Future Supportive Trust</h1>
+          <div className="heading">Golden Future Supportive Trust</div>
         </div>
 
-        <div className="navbar">
+        <div className="navbar-links">
           <NavLink to='/home' className="nav-link">Home</NavLink>
           <NavLink to='/about' className="nav-link">About</NavLink>
-          <NavLink to='/logout' className="nav-link">Log out</NavLink>
+          <NavLink to='/logout' className="nav-link">Logout</NavLink>
         </div>
       </div>
     </>
@@ -76,3 +106,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

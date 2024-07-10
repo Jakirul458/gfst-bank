@@ -256,7 +256,7 @@ function SideBar() {
                     <h2>Investment</h2>
                     <nav>
                         <NavLink to='/createinvestmentaccount'>Create Account</NavLink>
-                        <NavLink to='/profit'>Profit</NavLink>
+                        <NavLink to='/profit'>Profit Return</NavLink>
                         <NavLink to='/findinvestmentaccount'>Find Investment Account</NavLink>
                         <NavLink to='/monthlyinvestmentaudit'>Monthly Audit</NavLink>
                         <NavLink to='/investmentaccounts'>Investment Accounts</NavLink>

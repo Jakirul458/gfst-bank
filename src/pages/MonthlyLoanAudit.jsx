@@ -53,7 +53,9 @@ function MonthlyLoanAudit() {
           ))}
         </tbody>
       </table>
-      <button type="print" className="print-btn">Print</button>
+      <div className='print-btn-container'>
+        <button type="print" className="print-btn">Print</button>
+        </div>
     </>
   );
 }

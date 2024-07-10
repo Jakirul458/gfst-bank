@@ -124,9 +124,10 @@ const Profit = () => {
       {error && <p className="error">{error}</p>}
 
       <div className="form-group">
-        <label>Account No:</label>
+        <label>Account No</label>
         <input
           type="text"
+          placeholder='Enter Consumer Account Number'
           value={account}
           onChange={(e) => setAccount(e.target.value)}
         />
@@ -136,7 +137,7 @@ const Profit = () => {
       {isVerified && (
         <>
           <div className="form-group">
-            <label>Date:</label>
+            <label>Date</label>
             <input
               type="date"
               value={date}
@@ -145,7 +146,7 @@ const Profit = () => {
           </div>
 
           <div className="form-group">
-            <label>Transaction ID:</label>
+            <label>Transaction ID</label>
             <input
               type="text"
               value={transactionid}
@@ -154,7 +155,7 @@ const Profit = () => {
           </div>
 
           <div className="form-group">
-            <label>Deposit Amount:</label>
+            <label>Deposit Amount</label>
             <input
               type="number"
               value={deposit}

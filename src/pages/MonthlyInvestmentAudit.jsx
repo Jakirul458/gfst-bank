@@ -12,7 +12,7 @@
 
 
 import React from 'react';
-// import './MonthlySavingAudit.css';
+
 
 function MonthlyInvestmentAudit() {
   const transactions = [
@@ -24,7 +24,7 @@ function MonthlyInvestmentAudit() {
 
   return (
     <>
-      <h1 className="mb-4">Moonthly Loan Instalment Transaction Records</h1>
+      <h1 className="mb-4">Moonthly Investment Transaction Records</h1>
       <table className="table table-bordered table-hover">
         <thead className="thead-dark">
           <tr>
@@ -51,7 +51,9 @@ function MonthlyInvestmentAudit() {
           ))}
         </tbody>
       </table>
-      <button type="print" className="print-btn">Print</button>
+      <div className='print-btn-container'>
+        <button type="print" className="print-btn">Print</button>
+        </div>
       </>
   );
 }

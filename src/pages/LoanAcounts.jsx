@@ -1,4 +1,5 @@
 import React from 'react'
+import './AllAcounts.css';
 
 function LoanAcounts() {
   const users = [
@@ -44,7 +45,9 @@ function LoanAcounts() {
         </table>
         
      
-      <button type="print" className="print-btn">Print</button>
+        <div className='print-btn-container'>
+        <button type="print" className="print-btn">Print</button>
+        </div>
     </>
 
   )

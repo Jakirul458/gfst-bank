@@ -47,7 +47,7 @@ const FindLoanAccount = () => {
 
   return (
     <div className="container">
-      <h1>Find Account</h1>
+      <h1>Search consumer loan account</h1>
       <div className="search-bar">
         <input
           type="text"
