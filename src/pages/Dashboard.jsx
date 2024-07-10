@@ -25,7 +25,7 @@ export default Home
                                             /*edit 2*/
 
 import React from 'react';
-import './Home.css';
+import './Dashboard.css';
 
 function Home() {
   return (

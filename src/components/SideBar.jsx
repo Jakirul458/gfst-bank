@@ -19,9 +19,10 @@ import MonthlyInvestmentAudit from '../pages/MonthlyInvestmentAudit';
 import InvestmentAccounts from '../pages/InvestmentAccounts';
 import CloseInvestmentAccount from '../pages/CloseInvestmentAccount';
 import FindInvestmentAccount from '../pages/FindInvestmentAccount';
-import Home from '../pages/Home';
+import Dashboard from '../pages/Dashboard';
 import About from '../pages/About';
 import Logout from '../pages/Logout';
+import Login from '../pages/Login';
 import './SideBar.css';
 
 
@@ -92,9 +93,11 @@ function SideBar() {
                     <Route path="/investmentaccounts" element={<InvestmentAccounts />} />
                     <Route path="/closeinvestmentaccount" element={<CloseInvestmentAccount />} />
                     <Route path="/findinvestmentaccount" element={<FindInvestmentAccount />} />
-                    <Route path="/home" element={<Home />} />
+                    
+                    <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/logout" element={<Logout />} />
+                    <Route path="/login" element={<Login />} />
                     
                 </Routes>
             </div>
