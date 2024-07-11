@@ -73,10 +73,11 @@ function LoanAccounts() {
     const fetchUsers = async () => {
       try {
         const response = await axios.get('http://localhost:3001/getLoanAccount');
+        console.log('API Response:', response.data); // Log the API response
         setUsers(response.data);
       } catch (err) {
-        console.error(err);
-      }
+         console.error('Error fetching users:', err);
+       }
     };
 
     fetchUsers();
@@ -108,18 +109,20 @@ function LoanAccounts() {
               <th>Mobile No</th>
               <th>Aadhar No</th>
               <th>Address</th>
+              <th>Balance</th>
             </tr>
           </thead>
           <tbody>
             {users.map((user, index) => (
               <tr key={index}>
                 <td>{user.date}</td>
-                <td>{user.accountNo}</td>
+                <td>{user.account}</td>
                 <td>{user.name}</td>
                 <td>{user.email}</td>
-                <td>{user.mobileNo}</td>
-                <td>{user.aadharNo}</td>
+                <td>{user.mobile}</td>
+                <td>{user.aadhar}</td>
                 <td>{user.address}</td>
+                <td>{user.balance}</td>
               </tr>
             ))}
           </tbody>

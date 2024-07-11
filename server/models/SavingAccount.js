@@ -18,18 +18,24 @@
 
 
 // models/SavingAccount.js
+
+
 const mongoose = require('mongoose');
 
 const SavingAccountSchema = new mongoose.Schema({
-  accountNo: String,
   date: String,
+  account: Number,
   name: String,
-  mobileNo: String,
-  aadharNo: String,
-  address: String,
+  mobile: Number,
+  aadhar: Number,
   email: String,
-  balance: String,
+  address: String,
+  balance: Number,
 });
 
 const SavingAccountModel = mongoose.model('createaccounts', SavingAccountSchema);
 module.exports = SavingAccountModel;
+
+
+
+

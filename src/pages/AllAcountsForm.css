@@ -28,7 +28,7 @@ h1 {
 
 .table thead {
     background-color: #086fd5;
-    color: #fff;
+    color: #f8f5f5;
 }
 
 .table thead th {
@@ -36,16 +36,21 @@ h1 {
 }
 
 .table tbody tr:nth-child(odd) {
-    background-color: #dedddd;
+    background-color: #e1f0f1;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #e5e7de;
 }
 
+
 .table tbody tr:hover {
-    background-color: #ddd;
+    background-color: #929981;
     cursor: pointer;
 }
 
 .table tbody tr td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #140606;
+    border-top: 1px solid #140606;
 }
 
 .table tbody tr td:first-child {
@@ -64,7 +69,7 @@ h1 {
 
 .print-btn {
     display: block;
-    width: 10%;
+    width: 70px;
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -82,4 +87,38 @@ h1 {
     align-items: center;
     /* Center vertically */
     margin-top: 20px;
+}
+
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .table th, .table td {
+        border: 1px solid #615e5e;
+        padding: 8px;
+    }
+
+    .table thead {
+        background-color: #086fd5 !important;
+        color: #f8f5f5 !important;
+    }
+
+    .table tbody tr:nth-child(odd) {
+        background-color: #e1f0f1 !important;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #e5e7de !important;
+    }
+
+    .print-btn, .print-btn-container {
+        display: none !important;
+    }
 }

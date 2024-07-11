@@ -44,7 +44,7 @@ function SideBar() {
                         <NavLink to='/deposit'>Deposit</NavLink>
                         <NavLink to='/withdraw'>Withdraw</NavLink>
                         <NavLink to='/allaccounts'>All Accounts</NavLink>
-                        <NavLink to='/findsavingaccount'>Find Accounts</NavLink>
+                        <NavLink to='/findsavingaccount'>Find Saving Accounts</NavLink>
                         <NavLink to='/monthlysavingaudit'>Monthly Audit</NavLink>
                     </nav>
                 </div>
@@ -67,8 +67,8 @@ function SideBar() {
                         <NavLink to='/createinvestmentaccount'>Create Account</NavLink>
                         <NavLink to='/profit'>Profit Return</NavLink>
                         <NavLink to='/findinvestmentaccount'>Find Investment Account</NavLink>
-                        <NavLink to='/monthlyinvestmentaudit'>Monthly Audit</NavLink>
                         <NavLink to='/investmentaccounts'>Investment Accounts</NavLink>
+                        <NavLink to='/monthlyinvestmentaudit'>Monthly Audit</NavLink>
                         <NavLink to='/closeinvestmentaccount'>Close Accounts</NavLink>
                     </nav>
                 </div>

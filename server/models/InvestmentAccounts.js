@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 const InvestmentAccountSchema = new mongoose.Schema({
-  accountNo: String,
+  account: Number,
   date: String,
   name: String,
-  mobileNo: String,
-  aadharNo: String,
+  mobile: Number,
+  aadhar: Number,
   address: String,
   email: String,
   balance: String,
